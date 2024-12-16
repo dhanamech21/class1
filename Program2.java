@@ -68,6 +68,8 @@ public class Program2 extends Program1{
 		mi.put(20, c1);
 		mi.put(30, c2);
 		
+		System.out.println("Dhana");
+		
 		Set<Entry<Integer,Program1>>entrySet=mi.entrySet();
 		for(Entry<Integer,Program1>d:entrySet) {
 			Program1 value = d.getValue();
